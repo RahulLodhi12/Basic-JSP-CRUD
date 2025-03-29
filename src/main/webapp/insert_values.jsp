@@ -40,10 +40,11 @@
 				<td><%=obj_User_Bean.getUser_name()%></td>
 				<td><%=obj_User_Bean.getEmail()%></td>
 				<td><%=obj_User_Bean.getMobile()%></td>
-				<td><a href="edit.jsp?sl_no=<%=obj_User_Bean.getSl_no()%>">Edit</a>
+				<td>
+					<a href="edit.jsp?sl_no=<%=obj_User_Bean.getSl_no()%>">Edit</a>
 				</td>
-				<td><a
-					href="controller/delete_controller.jsp?sl_no=<%=obj_User_Bean.getSl_no()%>">Delete</a>
+				<td>
+					<a href="controller/delete_controller.jsp?sl_no=<%=obj_User_Bean.getSl_no()%>">Delete</a>
 				</td>
 			</tr>
 			<%
